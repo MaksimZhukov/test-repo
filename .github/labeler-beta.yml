@@ -1,0 +1,4 @@
+SyncLabels:
+- any:
+  - changed-files: 
+    - AnyGlobToAnyFile: '*'
