@@ -1,1 +1,1 @@
-# labeler-issue
+# labeler
