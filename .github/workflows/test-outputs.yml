@@ -11,7 +11,7 @@ jobs:
     steps:
     - name: Labeler
       id: labeler
-      uses: actions/labeler@v4.3.0
+      uses: actions/labeler@v4
     
     - name: Check outputs
       run: |
