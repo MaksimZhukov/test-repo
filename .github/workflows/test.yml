@@ -1,0 +1,12 @@
+name: Test 
+on:
+  workflow_dispatch:
+
+jobs:
+  test:    
+    name: Test
+    runs-on: ubuntu-latest
+    steps:      
+    - name: test
+      run: |
+        $RUNNER_TOOL_CACHE/Python/3.9.18/x64/bin/python -m pip install --upgrade pip pipenv
